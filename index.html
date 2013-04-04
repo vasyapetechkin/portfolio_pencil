@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio_pencil</title>
+
+    <link rel="stylesheet/less" type="text/css" href="css/reset.less"/>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="css/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet/less" type="text/css" href="css/common.less"/>
+    <link rel="stylesheet/less" type="text/css" href="css/navigation.less"/>
+    <link rel="stylesheet/less" type="text/css" href="css/headers.less"/>
+    <link rel="stylesheet/less" type="text/css" href="css/main_costumers.less"/>
+    <link rel="stylesheet/less" type="text/css" href="css/second_content.less"/>
+    <link rel="stylesheet/less" type="text/css" href="css/footer.less"/>
+
+    <link rel="stylesheet/less" type="text/css" href="css/media-queries.less"/>
+
+    <script src="javascript/less-1.3.0.min.js" type="text/javascript"></script>
+<!--Script for blocks alignment-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        function setEqualHeight(columns)
+        {
+            var tallestcolumn = 0;
+            columns.each(
+                    function()
+                    {
+                        currentHeight = $(this).height();
+                        if(currentHeight > tallestcolumn)
+                        {
+                            tallestcolumn = currentHeight;
+                        }
+                    }
+            );
+            columns.height(tallestcolumn);
+        }
+        $(document).ready(function() {
+            setEqualHeight($(".container > article"));
+        });
+    </script>
+
+</head>
+<body>
+
+<!--Navigation-->
+<nav>
+    <div class="plaid">
+    </div>
+    <div class="nav_wrapper">
+        <a id="logo" href="#"></a>
+        <ul>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a class="active" href="#">Portfolio</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <a class="button_blue" href="#hiddenNavigation">Skip to Menu</a>
+    </div>
+</nav>
+
+
+<div class="main_wrapper">
+<!--Headers-->
+    <hgroup>
+        <h1> Meet our customers. </h1>
+        <h2> This could be you! </h2>
+    </hgroup>
+
+<!--Main costumers-->
+    <div class="main_costumers">
+        <div class="first_costumer">
+            <a href="#">
+                <img src="content/540x302xedmontonca-banner.jpg.pagespeed.ic.XN38QPLQjz.jpg">
+            </a>
+            <p>
+                City of Edmonton
+            </p>
+        </div>
+        <div class="second_costumer">
+            <a href="#">
+                <img src="content/540x302xwharton-banner.jpg.pagespeed.ic.LDM451nYVn.jpg">
+            </a>
+            <p>
+                The Wharton School
+            </p>
+        </div>
+        <div class="third_costumer">
+            <a href="#">
+                <img src="content/540x302xsurreybanner.jpg.pagespeed.ic.Q426UrjaK8.jpg">
+            </a>
+            <p>
+                City of Surrey
+            </p>
+        </div>
+    </div>
+
+<!--Second content-->
+    <div class="second_content">
+<!--Aside-->
+        <aside>
+            <h2>Categories</h2>
+            <ul>
+                <li> Drupal </li>
+                <li> E-Commerce</li>
+                <li> Education</li>
+                <li> Information Architecture</li>
+                <li> Interaction Design</li>
+                <li> Joomla</li>
+                <li> OpenText</li>
+                <li> Private Sector</li>
+                <li> Public Sector</li>
+                <li> SEO</li>
+                <li> Social Media</li>
+                <li> Visual Design</li>
+                <li> Wordpress</li>
+            </ul>
+        </aside>
+<!--Articles-->
+        <section>
+            <h1 class="article_title">Our Portfolio</h1>
+            <div class="container">
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xkey-banner.jpg.pagespeed.ic.nvJSuJcLnX.jpg">
+                    </a>
+                    <h3>
+                       <a href="#">Key Curriculum</a>
+                    </h3>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xponokabanner.jpg.pagespeed.ic.aM9OMKRkSW.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Town of Ponoka</a>
+                    </h3>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xalberta-canada.jpg.pagespeed.ic.xnWuGcY8-Q.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Alberta Employment & Immigration</a>
+                    </h3>
+                </article>
+            </div>
+            <div class="container">
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xSweet16Banner.jpg.pagespeed.ic.Bm_Pjri5rk.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Alberta Sweet 16</a>
+                    </h3>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xIGBanner.jpg.pagespeed.ic.eLTDPGDLyg.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Investors Group</a>
+                    </h3>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xorangedog-banner.jpg.pagespeed.ic._4gHODryCR.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Orange Dog</a>
+                    </h3>
+                </article>
+            </div>
+            <div class="container">
+                <article>
+                <a href="#">
+                    <img src="content/234x132xhellofisher-banner.jpg.pagespeed.ic.ycDNxIOYHV.jpg">
+                </a>
+                <h3>
+                    <a href="#">Hello Fisher</a>
+                </h3>
+                 </article>
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xcaansBanner.jpg.pagespeed.ic.JvPFImsJLa.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Central Alberta AIDS Network Society</a>
+                    </h3>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xSafeHarbourBanner.jpg.pagespeed.ic.__Rxrk1VHw.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Safe Harbour Society</a>
+                    </h3>
+                </article>
+            </div>
+            <div class="container">
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xBannercookies.jpg.pagespeed.ic.Vld8w9O54O.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Cookies by George</a>
+                    </h3>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xInnisfailBanner.jpg.pagespeed.ic.1p9Z4jCepA.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Town of Innisfail</a>
+                    </h3>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xpizzabanner.jpg.pagespeed.ic.qeEjIysvEp.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Pizza 73</a>
+                    </h3>
+                </article>
+            </div>
+            <div class="container">
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xconcordiabanner.jpg.pagespeed.ic.kfKD16oEhl.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Concordia University College</a>
+                    </h3>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xdesignweek-banner.jpg.pagespeed.ic.AUtUILdn0q.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Design Currency 2010</a>
+                    </h3>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xAcanaBanner3.jpg.pagespeed.ic.T-JNapDGq9.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">ACANA Pet Foods</a>
+                    </h3>
+                </article>
+            </div>
+            <div class="container">
+                <article>
+                    <a href="#">
+                        <img src="content/234x132xathabascaBanner_0.jpg.pagespeed.ic.ztPuLEugpu.jpg">
+                    </a>
+                    <h3>
+                        <a href="#">Athabasca University</a>
+                    </h3>
+                </article>
+            </div>
+        </section>
+    </div>
+</div>
+
+    <!--Footer-->
+<footer>
+    <!--Three columns-->
+    <div class="footer_content">
+        <div class="jobs">
+            <h2>
+                Jobs
+            </h2>
+            <p>
+                Looking to make the web a better place? You might be just who we're looking for.
+            </p>
+             <a class="button_blue" href="#">Browse job postings</a>
+        </div>
+        <div class="edmonton_office">
+            <h2>
+                Edmonton Office
+            </h2>
+            <address>
+                <span>#503, 10158-103 Street</span>
+                <br>
+                <span>Edmonton, AB</span>
+                <br>
+                <span>Canada</span>
+                <span>T5J 0X6</span>
+                <br>
+                <a target="_blank" href="https://maps.google.com/maps?q=Yellow+Pencil+Inc.,+Edmonton,+AB,+Canada&hl=en&view=map&cid=4553733121478527313&hq=Yellow+Pencil+Inc.,+Edmonton,+AB,+Canada&t=h&z=16&iwloc=A">Edmonton map</a>
+            </address>
+            <p>
+                <span>Phone: 1.780.423.5917</span>
+                <br>
+                <span>Fax: 1.780.428.5977</span>
+            </p>
+        </div>
+        <div class="vancouver_office">
+            <h2>
+                Vancouver Office
+            </h2>
+            <address>
+                <span>#403, 119 West Pender</span>
+                <br>
+                <span>Vancouver, BC</span>
+                <br>
+                <span>Canada</span>
+                <span>V6B 1S5</span>
+                <br>
+                <a target="_blank" rel="external" href="https://maps.google.com/maps?q=Yellow+Pencil+Inc.,+Vancouver,+BC,+Canada&hl=en&sll=53.542353,-113.497676&sspn=0.008658,0.022702&t=h&hq=Yellow+Pencil+Inc.,&hnear=Vancouver,+Greater+Vancouver+Regional+District,+British+Columbia,+Canada&z=13">Vancouver map</a>
+            </address>
+            <p>
+                <span>Phone: 1.604.558.1330</span>
+            </p>
+        </div>
+    </div>
+
+    <!--Hidden navigation-->
+    <div id="hiddenNavigation">
+        <p>Navigation</p>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Blog</a>
+        <a href="#">Team</a>
+    </div>
+
+    <!--Footer tools-->
+    <div class="footer_tools">
+        <div class="footer_wrapper">
+            <p>Copyright &copy; 2012 Yellow Pencil Inc.</p>
+            <div class="footer_nav">
+                <a href="#">Drupal</a>
+                <a href="#">OpenText</a>
+                <a href="#">Oracle WebCenter</a>
+                <a href="#">Hosted Solutions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <a href=# class="twitter"></a>
+        </div>
+        <div class="footer_plaid">
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
